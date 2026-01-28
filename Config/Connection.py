@@ -5,5 +5,5 @@ conn = psycopg2.connect(
     port="5432",
     dbname="smart_city_dw",    
     user="postgres",
-    password="Sharath@4708"
+    password="Yourpassword"
 )
