@@ -1,14 +1,14 @@
-📌 Project Title
+ Project Title
 
 Smart City Urban Mobility & Public Transport Analytics
 
-📖 Project Overview
+ Project Overview
 
 This project demonstrates an end-to-end Data Engineering pipeline built using the Medallion Architecture (Bronze → Silver → Gold) to analyze urban mobility patterns and public transport performance in a smart city context.
 
 The pipeline ingests large-scale raw data from Google Sheets, processes and validates it using Python and SQL, and exposes business-ready datasets for dashboarding and decision-making.
 
-🎯 Business Problems Addressed
+ Business Problems Addressed
 1. Urban Mobility & Environmental Impact
 
 Which city zones experience the highest private travel demand?
@@ -23,7 +23,7 @@ How reliable are bus services across routes?
 
 Which routes require operational improvement?
 
-🏗️ Architecture (Medallion Pattern)
+ Architecture (Medallion Pattern)
 
 Bronze Layer
 
@@ -49,7 +49,7 @@ Zone-level city mobility metrics
 
 Route-level public transport reliability metrics
 
-🧰 Tech Stack
+ Tech Stack
 
 Data Source: Google Sheets + Apps Script
 
@@ -90,7 +90,7 @@ On-time performance (%)
 
 Average occupancy
 
-⚙️ How to Run the Pipeline
+ How to Run the Pipeline
 python3 src/etl.py
 
 
@@ -104,7 +104,7 @@ Creates Gold tables
 
 The pipeline is idempotent and safe to rerun.
 
-📈 Dashboard
+ Dashboard
 
 The dashboard connects directly to Gold outputs and presents:
 
@@ -116,7 +116,7 @@ Environmental impact
 
 Route-level reliability analysis
 
-🧠 Key Learnings
+ Key Learnings
 
 Medallion Architecture enables scalable and reusable analytics
 
@@ -124,7 +124,7 @@ Multiple Gold datasets can be created from the same raw data to answer different
 
 Clear storytelling is more important than complex visuals
 
-🏁 Conclusion
+ Conclusion
 
 This project demonstrates practical data engineering skills including data ingestion, transformation, automation, and analytics delivery using real-world design patterns.
 
